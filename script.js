@@ -93,6 +93,9 @@ const cartItems = document.getElementById('cart-items');
 const cartWindow = document.getElementById('cart-window');
 const cartItemsContainer = document.getElementById('cart-items-container');
 
+fullNameInput.addEventListener('input', validateForm);
+numberInput.addEventListener('input', validateForm);
+
 cartIcon.addEventListener('click', () => {
   cartWindow.classList.toggle('show');
 });
@@ -158,6 +161,11 @@ function addToCart(product) {
   price.style.color = '#009620';
   price.style.fontSize = '12px';
   price.style.marginLeft = '10px'
+
+  const titleInput = document.getElementById('titleInput');
+      const priceInput = document.getElementById('priceInput');
+      titleInput.value = product.name;
+      priceInput.value = product.price;
 
   const removeIcon = document.createElement('img');
   removeIcon.src = './icons/delete.png';
