@@ -495,7 +495,7 @@ color: white;
 
 .close {
   position: fixed;
-  bottom: 50%;
+  bottom: 390px;
   right: 15px;
   z-index: 2000; 
 }
