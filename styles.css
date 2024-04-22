@@ -508,6 +508,7 @@ color: white;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  padding-bottom: 190px
 }
 
 .purchase-form {
