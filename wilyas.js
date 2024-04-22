@@ -1,280 +1,77 @@
 function changeComune() {
     var wilayaSelect = document.getElementById("Wilaya");
     var comuneSelect = document.getElementById("comune");
-    
+
     comuneSelect.innerHTML = '';
-    
+
     var selectedWilaya = wilayaSelect.value;
-    
+
     if (selectedWilaya === "اختر مدينتك") {
-        
-
-    } else if (selectedWilaya === "16. Alger") {
-        addComuneOption(comuneSelect, "Alger Centre");
-        addComuneOption(comuneSelect, "Sidi Mhamed");
-        addComuneOption(comuneSelect, "El Madania");
-        addComuneOption(comuneSelect, "Hamma Anassers");
-        addComuneOption(comuneSelect, "Bab El Oued");
-        addComuneOption(comuneSelect, "Bologhine Ibn Ziri");
-        addComuneOption(comuneSelect, "Casbah");
-        addComuneOption(comuneSelect, "Oued Koriche");
-        addComuneOption(comuneSelect, "Bir Mourad Rais");
-        addComuneOption(comuneSelect, "El Biar");
-        addComuneOption(comuneSelect, "Bouzareah");
-        addComuneOption(comuneSelect, "Birkhadem");
-        addComuneOption(comuneSelect, "El Harrach");
-        addComuneOption(comuneSelect, "Baraki");
-        addComuneOption(comuneSelect, "Oued Smar");
-        addComuneOption(comuneSelect, "Bourouba");
-        addComuneOption(comuneSelect, "Hussein Dey");
-        addComuneOption(comuneSelect, "Kouba");
-        addComuneOption(comuneSelect, "Bachedjerah");
-        addComuneOption(comuneSelect, "Dar El Beida");
-        addComuneOption(comuneSelect, "Bab Azzouar");
-        addComuneOption(comuneSelect, "Ben Aknoun");
-        addComuneOption(comuneSelect, "Dely Ibrahim");
-        addComuneOption(comuneSelect, "Bains Romains");
-        addComuneOption(comuneSelect, "Rais Hamidou");
-        addComuneOption(comuneSelect, "Djasr Kasentina");
-        addComuneOption(comuneSelect, "El Mouradia");
-        addComuneOption(comuneSelect, "Hydra");
-        addComuneOption(comuneSelect, "Mohammadia");
-        addComuneOption(comuneSelect, "Bordj El Kiffan");
-        addComuneOption(comuneSelect, "El Magharia");
-        addComuneOption(comuneSelect, "Beni Messous");
-        addComuneOption(comuneSelect, "Les Eucalyptus");
-        addComuneOption(comuneSelect, "Birtouta");
-        addComuneOption(comuneSelect, "Tassala El Merdja");
-        addComuneOption(comuneSelect, "Ouled Chebel");
-        addComuneOption(comuneSelect, "Sidi Moussa");
-        addComuneOption(comuneSelect, "Ain Taya");
-        addComuneOption(comuneSelect, "Bordj El Bahri");
-        addComuneOption(comuneSelect, "Marsa");
-        addComuneOption(comuneSelect, "Haraoua");
-        addComuneOption(comuneSelect, "Rouiba");
-        addComuneOption(comuneSelect, "Reghaia");
-        addComuneOption(comuneSelect, "Ain Benian");
-        addComuneOption(comuneSelect, "Staoueli");
-        addComuneOption(comuneSelect, "Zeralda");
-        addComuneOption(comuneSelect, "Mahelma");
-        addComuneOption(comuneSelect, "Rahmania");
-        addComuneOption(comuneSelect, "Souidania");
-        addComuneOption(comuneSelect, "Cheraga");
-        addComuneOption(comuneSelect, "Ouled Fayet");
-        addComuneOption(comuneSelect, "El Achour");
-        addComuneOption(comuneSelect, "Draria");
-        addComuneOption(comuneSelect, "Douera");
-        addComuneOption(comuneSelect, "Baba Hassen");
-        addComuneOption(comuneSelect, "Khracia");
-        addComuneOption(comuneSelect, "Saoula");        
-
-    } else if (selectedWilaya === "21. Skikda") {
-        addComuneOption(comuneSelect, "Skikda Centre");
-addComuneOption(comuneSelect, "Ain Zouit");
-addComuneOption(comuneSelect, "El Hadaik");
-addComuneOption(comuneSelect, "Azzaba");
-addComuneOption(comuneSelect, "Djendel Saadi Mohamed");
-addComuneOption(comuneSelect, "Ain Cherchar");
-addComuneOption(comuneSelect, "Bekkouche Lakhdar");
-addComuneOption(comuneSelect, "Benazouz");
-addComuneOption(comuneSelect, "Es Sebt");
-addComuneOption(comuneSelect, "Collo");
-addComuneOption(comuneSelect, "Beni Zid");
-addComuneOption(comuneSelect, "Kerkera");
-addComuneOption(comuneSelect, "Ouled Attia");
-addComuneOption(comuneSelect, "Oued Zehour");
-addComuneOption(comuneSelect, "Zitouna");
-addComuneOption(comuneSelect, "El Harrouch");
-addComuneOption(comuneSelect, "Zerdazas");
-addComuneOption(comuneSelect, "Ouled Hebaba");
-addComuneOption(comuneSelect, "Sidi Mezghiche");
-addComuneOption(comuneSelect, "Emdjez Edchich");
-addComuneOption(comuneSelect, "Beni Oulbane");
-addComuneOption(comuneSelect, "Ain Bouziane");
-addComuneOption(comuneSelect, "Ramdane Djamel");
-addComuneOption(comuneSelect, "Beni Bachir");
-addComuneOption(comuneSelect, "Salah Bouchaour");
-addComuneOption(comuneSelect, "Tamalous");
-addComuneOption(comuneSelect, "Ain Kechra");
-addComuneOption(comuneSelect, "Oum Toub");
-addComuneOption(comuneSelect, "Bein El Ouiden");
-addComuneOption(comuneSelect, "Fil Fila");
-addComuneOption(comuneSelect, "Cheraia");
-addComuneOption(comuneSelect, "Kanoua");
-addComuneOption(comuneSelect, "El Ghedir");
-addComuneOption(comuneSelect, "Bouchtata");
-addComuneOption(comuneSelect, "Ouldja Boulbalout");
-addComuneOption(comuneSelect, "Kheneg Mayoum");
-addComuneOption(comuneSelect, "Hamadi Krouma");
-addComuneOption(comuneSelect, "El Marsa");
-
-
-    } else if (selectedWilaya === "23. Annaba") {
-        addComuneOption(comuneSelect, "Annaba");
-addComuneOption(comuneSelect, "Berrahel");
-addComuneOption(comuneSelect, "El Hadjar");
-addComuneOption(comuneSelect, "Eulma");
-addComuneOption(comuneSelect, "El Bouni");
-addComuneOption(comuneSelect, "Oued El Aneb");
-addComuneOption(comuneSelect, "Cheurfa");
-addComuneOption(comuneSelect, "Seraidi");
-addComuneOption(comuneSelect, "Ain Berda");
-addComuneOption(comuneSelect, "Chetaibi");
-addComuneOption(comuneSelect, "Sidi Amer");
-addComuneOption(comuneSelect, "Treat");
-   
-
-    } else if (selectedWilaya === "06. Bejaia") {
-        addComuneOption(comuneSelect, "Bejaia");
-addComuneOption(comuneSelect, "Amizour");
-addComuneOption(comuneSelect, "Ferraoun");
-addComuneOption(comuneSelect, "Taourirt Ighil");
-addComuneOption(comuneSelect, "Chelata");
-addComuneOption(comuneSelect, "Tamokra");
-addComuneOption(comuneSelect, "Timzrit");
-addComuneOption(comuneSelect, "Souk El Thenine");
-addComuneOption(comuneSelect, "Mcisna");
-addComuneOption(comuneSelect, "Thinabdher");
-addComuneOption(comuneSelect, "Tichi");
-addComuneOption(comuneSelect, "Semaoun");
-addComuneOption(comuneSelect, "Kendira");
-addComuneOption(comuneSelect, "Tifra");
-addComuneOption(comuneSelect, "Ighram");
-addComuneOption(comuneSelect, "Amalou");
-addComuneOption(comuneSelect, "Ighil Ali");
-addComuneOption(comuneSelect, "Ifelain Ilmathen");
-addComuneOption(comuneSelect, "Toudja");
-addComuneOption(comuneSelect, "Darguina");
-addComuneOption(comuneSelect, "Sidi Ayad");
-addComuneOption(comuneSelect, "Aokas");
-addComuneOption(comuneSelect, "Beni Djellil");
-addComuneOption(comuneSelect, "Adekar");
-addComuneOption(comuneSelect, "Akbou");
-addComuneOption(comuneSelect, "Seddouk");
-addComuneOption(comuneSelect, "Tazmalt");
-addComuneOption(comuneSelect, "Ait Rizine");
-addComuneOption(comuneSelect, "Chemini");
-addComuneOption(comuneSelect, "Souk Oufella");
-addComuneOption(comuneSelect, "Taskriout");
-addComuneOption(comuneSelect, "Tibane");
-addComuneOption(comuneSelect, "Tala Hamza");
-addComuneOption(comuneSelect, "Barbacha");
-addComuneOption(comuneSelect, "Beni Ksila");
-addComuneOption(comuneSelect, "Ouzallaguen");
-addComuneOption(comuneSelect, "Bouhamza");
-addComuneOption(comuneSelect, "Beni Melikeche");
-addComuneOption(comuneSelect, "Sidi Aich");
-addComuneOption(comuneSelect, "El Kseur");
-addComuneOption(comuneSelect, "Melbou");
-addComuneOption(comuneSelect, "Akfadou");
-addComuneOption(comuneSelect, "Leflaye");
-addComuneOption(comuneSelect, "Kherrata");
-addComuneOption(comuneSelect, "Draa Kaid");
-addComuneOption(comuneSelect, "Tamridjet");
-addComuneOption(comuneSelect, "Ait Smail");
-addComuneOption(comuneSelect, "Boukhelifa");
-addComuneOption(comuneSelect, "Tizi Nberber");
-addComuneOption(comuneSelect, "Beni Maouch");
-addComuneOption(comuneSelect, "Oued Ghir");
-addComuneOption(comuneSelect, "Boudjellil");
-
-
-    } else if (selectedWilaya === "18. Jijel") {
-        addComuneOption(comuneSelect, "Jijel");
-addComuneOption(comuneSelect, "Erraguene");
-addComuneOption(comuneSelect, "El Aouana");
-addComuneOption(comuneSelect, "Ziamma Mansouriah");
-addComuneOption(comuneSelect, "Taher");
-addComuneOption(comuneSelect, "Emir Abdelkader");
-addComuneOption(comuneSelect, "Chekfa");
-addComuneOption(comuneSelect, "Chahna");
-addComuneOption(comuneSelect, "El Milia");
-addComuneOption(comuneSelect, "Sidi Maarouf");
-addComuneOption(comuneSelect, "Settara");
-addComuneOption(comuneSelect, "El Ancer");
-addComuneOption(comuneSelect, "Sidi Abdelaziz");
-addComuneOption(comuneSelect, "Kaous");
-addComuneOption(comuneSelect, "Ghebala");
-addComuneOption(comuneSelect, "Bouraoui Belhadef");
-addComuneOption(comuneSelect, "Djmila");
-addComuneOption(comuneSelect, "Selma Benziada");
-addComuneOption(comuneSelect, "Boussif Ouled Askeur");
-addComuneOption(comuneSelect, "El Kennar Nouchfi");
-addComuneOption(comuneSelect, "Ouled Yahia Khadrouch");
-addComuneOption(comuneSelect, "Boudria Beni Yadjis");
-addComuneOption(comuneSelect, "Kemir Oued Adjoul");
-addComuneOption(comuneSelect, "Texena");
-addComuneOption(comuneSelect, "Djemaa Beni Habibi");
-addComuneOption(comuneSelect, "Bordj Taher");
-addComuneOption(comuneSelect, "Ouled Rabah");
-addComuneOption(comuneSelect, "Ouadjana");
-
-
-    } else if (selectedWilaya === "36. El Tarf") {
-        addComuneOption(comuneSelect, "El Tarf");
-addComuneOption(comuneSelect, "Bouhadjar");
-addComuneOption(comuneSelect, "Ben Mhidi");
-addComuneOption(comuneSelect, "Bougous");
-addComuneOption(comuneSelect, "El Kala");
-addComuneOption(comuneSelect, "Ain El Assel");
-addComuneOption(comuneSelect, "El Aioun");
-addComuneOption(comuneSelect, "Bouteldja");
-addComuneOption(comuneSelect, "Souarekh");
-addComuneOption(comuneSelect, "Berrihane");
-addComuneOption(comuneSelect, "Lac Des Oiseaux");
-addComuneOption(comuneSelect, "Chefia");
-addComuneOption(comuneSelect, "Drean");
-addComuneOption(comuneSelect, "Chihani");
-addComuneOption(comuneSelect, "Chebaita Mokhtar");
-addComuneOption(comuneSelect, "Besbes");
-addComuneOption(comuneSelect, "Asfour");
-addComuneOption(comuneSelect, "Echatt");
-addComuneOption(comuneSelect, "Zerizer");
-addComuneOption(comuneSelect, "Zitouna");
-addComuneOption(comuneSelect, "Ain Kerma");
-addComuneOption(comuneSelect, "Oued Zitoun");
-addComuneOption(comuneSelect, "Hammam Beni Salah");
-addComuneOption(comuneSelect, "Raml Souk");
-
-
-    } else if (selectedWilaya === "15. Tizi Ouzou") {
-        addComuneOption(comuneSelect, "01", "Tizi Ouzou");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "35. Boumerdes") {
-        addComuneOption(comuneSelect, "01", "Boumerdes");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "42. Tipaza") {
-        addComuneOption(comuneSelect, "01", "Tipaza");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "27. Mostaganem") {
-        addComuneOption(comuneSelect, "01", "Mostaganem");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "02. Chlef") {
-        addComuneOption(comuneSelect, "01", "Chlef");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "31. Oran") {
-        addComuneOption(comuneSelect, "01", "Oran");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "13. Tlemcen") {
-        addComuneOption(comuneSelect, "01", "Tlemcen");
-        addComuneOption(comuneSelect, "02", "");
-
-    } else if (selectedWilaya === "46. Aïn Témouchent") {
-        addComuneOption(comuneSelect, "01", "Aïn Témouchent");
-        addComuneOption(comuneSelect, "02", "");
-
+        return;
     }
+
+    // Define an object to map wilayas to their communes
+    var communes = {
+        "16. Alger": [
+            "Alger Centre", "Sidi Mhamed", "El Madania", "Hamma Anassers", "Bab El Oued",
+            "Bologhine Ibn Ziri", "Casbah", "Oued Koriche", "Bir Mourad Rais", "El Biar",
+            "Bouzareah", "Birkhadem", "El Harrach", "Baraki", "Oued Smar", "Bourouba",
+            "Hussein Dey", "Kouba", "Bachedjerah", "Dar El Beida", "Bab Azzouar", "Ben Aknoun",
+            "Dely Ibrahim", "Bains Romains", "Rais Hamidou", "Djasr Kasentina", "El Mouradia",
+            "Hydra", "Mohammadia", "Bordj El Kiffan", "El Magharia", "Beni Messous",
+            "Les Eucalyptus", "Birtouta", "Tassala El Merdja", "Ouled Chebel", "Sidi Moussa",
+            "Ain Taya", "Bordj El Bahri", "Marsa", "Haraoua", "Rouiba", "Reghaia",
+            "Ain Benian", "Staoueli", "Zeralda", "Mahelma", "Rahmania", "Souidania",
+            "Cheraga", "Ouled Fayet", "El Achour", "Draria", "Douera", "Baba Hassen",
+            "Khracia", "Saoula"
+        ],
+        "21. Skikda": [
+            "Skikda Centre", "Ain Zouit", "El Hadaik", "Azzaba", "Djendel Saadi Mohamed",
+            "Ain Cherchar", "Bekkouche Lakhdar", "Benazouz", "Es Sebt", "Collo", "Beni Zid",
+            "Kerkera", "Ouled Attia", "Oued Zehour", "Zitouna", "El Harrouch", "Zerdazas",
+            "Ouled Hebaba", "Sidi Mezghiche", "Emdjez Edchich", "Beni Oulbane", "Ain Bouziane",
+            "Ramdane Djamel", "Beni Bachir", "Salah Bouchaour", "Tamalous", "Ain Kechra",
+            "Oum Toub", "Bein El Ouiden", "Fil Fila", "Cheraia", "Kanoua", "El Ghedir",
+            "Bouchtata", "Ouldja Boulbalout", "Kheneg Mayoum", "Hamadi Krouma", "El Marsa"
+        ],
+        "23. Annaba": [
+            "Annaba", "Berrahel", "El Hadjar", "Eulma", "El Bouni", "Oued El Aneb",
+            "Cheurfa", "Seraidi", "Ain Berda", "Chetaibi", "Sidi Amer", "Treat"
+        ],
+        "06. Bejaia": [
+            "Bejaia", "Amizour", "Ferraoun", "Taourirt Ighil", "Chelata", "Tamokra",
+            "Timzrit", "Souk El Thenine", "Mcisna", "Thinabdher", "Tichi", "Semaoun",
+            "Kendira", "Tifra", "Ighram", "Amalou", "Ighil Ali", "Ifelain Ilmathen",
+            "Toudja", "Darguina", "Sidi Ayad", "Aokas", "Beni Djellil", "Adekar", "Akbou",
+            "Seddouk", "Tazmalt", "Ait Rizine", "Chemini", "Souk Oufella", "Taskriout",
+            "Tibane", "Tala Hamza", "Barbacha", "Beni Ksila", "Ouzallaguen", "Bouhamza",
+            "Beni Melikeche", "Sidi Aich", "El Kseur", "Melbou", "Akfadou", "Leflaye",
+            "Kherrata", "Draa Kaid", "Tamridjet", "Ait Smail", "Boukhelifa", "Tizi Nberber",
+            "Beni Maouch", "Oued Ghir", "Boudjellil"
+        ],
+        "18. Jijel": [
+            "Jijel", "Erraguene", "El Aouana", "Ziamma Mansouriah", "Taher", "Emir Abdelkader",
+            "Chekfa", "Chahna", "El Milia", "Sidi Maarouf", "Settara", "El Ancer", "Sidi Abdelaziz",
+            "Kaous", "Ghebala", "Bouraoui Belhadef", "Djmila", "Selma Benziada", "Boussif Ouled Askeur",
+            "El Kennar Nouchfi", "Ouled Yahia Khadrouch", "Boudria Beni Yadjis", "Kemir Oued Adjoul",
+            "Texena", "Djemaa Beni Habibi", "Bordj Taher", "Ouled Rabah", "Ouadjana"
+        ],
+        "36. El Tarf": [
+            "El Tarf", "Bouhadjar", "Ben Mhidi", "Bougous", "El Kala", "Ain El Assel",
+            "El Aioun", "Bouteldja", "Souarekh", "Berrihane", "Lac Des Oiseaux", "Chefia",
+            "Drean", "Chihani", "Chebaita Mokhtar", "Besbes", "Asfour", "Echatt", "Zerizer",
+            "Zitouna", "Ain Kerma", "Oued Zitoun", "Hammam Beni Salah", "Raml Souk"
+        ]
+    };
+
+    // Add commune options based on the selected wilaya
+    communes[selectedWilaya].forEach(commune => {
+        addComuneOption(comuneSelect, commune);
+    });
 }
 
-function addComuneOption(select, value, text) {
+function addComuneOption(select, text) {
     var option = document.createElement("option");
-    option.value = value;
     option.text = text;
     select.appendChild(option);
 }
