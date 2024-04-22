@@ -237,6 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const modalDescription = document.getElementById('modal-description');
     modalDescription.textContent = product.description;
+    modalDescription.style.paddingBottom = '40px';
 
     modal.style.display = 'block';
   } else {
