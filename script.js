@@ -163,9 +163,10 @@ function addToCart(product) {
   price.style.marginLeft = '10px'
 
   const titleInput = document.getElementById('titleInput');
-      const priceInput = document.getElementById('priceInput');
-      titleInput.value = product.name;
-      priceInput.value = product.price;
+  titleInput.value += product.name + ', ';
+
+  const priceInput = document.getElementById('priceInput');
+  priceInput.value += product.price + ', ';
 
   const removeIcon = document.createElement('img');
   removeIcon.src = './icons/delete.png';
