@@ -4,35 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" >
-  <title>CinqCinq</title>
+  <title>Grocery</title>
 </head>
 <body>
-  <header class="header">
-    <div class="icona">
-    <a href="https://cinq5inq.wordpress.com/106-2/">
-    <img src="./icons/Menu.png" alt="Menu" class="icon-right" id="menu-icon">
-    </a>
+  <div class="mova">
+    <img src="./images/1.png" alt="Image 1" class="image">
+    <img src="./images/2.png" alt="Image 2" class="image">
+    <img src="./images/3.png" alt="Image 3" class="image">
+    <img src="./images/4.png" alt="Image 4" class="image">
+    <img src="./images/5.png" alt="Image 5" class="image">
+    <img src="./images/6.png" alt="Image 6" class="image">
+    <img src="./images/7.png" alt="Image 7" class="image">
   </div>
+  <header class="header">
+    <div class="icona">   
+        <img src="./icons/Menu.png" alt="Menu" class="icon-right" id="menu-icon">
+    </div>
     <img src="./logo/logo1.png" alt="Logo" class="logo">
     <div class="icon-left">
-      <div class="icona">
-        <a href="https://cinq5inq.wordpress.com/settings/">
-      <img src="./icons/Settings.png" alt="Settings">
-    </a>
+        <div class="icona">
+            <img src="./icons/Settings.png" alt="Settings" id="settings-icon">
+        <div class="carta">
+            <img src="./icons/Cart1.png" alt="Cart" id="cart-icon">
+            <div class="cart-items" id="cart-items">0</div>
+        </div>
     </div>
-      <div class="carta">
-      <img src="./icons/Cart1.png" alt="Cart" id="cart-icon">
-      <div class="cart-items" id="cart-items">0</div>
-      </div>
+</header>
+
+<div id="menu-window" class="window1">
+  <div class="containermenu">
+    <a href="https://cinq5inq.wordpress.com/jobs/">
+    <img src="./options/1.png">
+    </a>
+    <a href="./contact.html">
+    <img src="./options/2.png">
+    </a>
+    <a href="https://cinq5inq.wordpress.com/advice/">
+    <img src="./options/3.png">
+    </a>
   </div>
-  </header>
+</div>
+<div id="settings-window" class="window2">
+  <div class="containersettings">
+    <a href="https://cinq5inq.wordpress.com/terms-and-conditions/">
+    <img src="./settings/1.png">
+    </a>
+    <a href="https://cinq5inq.wordpress.com/terms-and-conditions-for-use/">
+    <img src="./settings/2.png">
+    </a>
+    <a href="https://cinq5inq.wordpress.com/privacy-policy/">
+    <img src="./settings/3.png">
+    </a>
+    <a href="#">
+    <img src="./settings/4.png">
+    </a>
+    <a href="#">
+    <img src="./settings/5.png">
+    </a>
+    <a href="https://cinq5inq.wordpress.com/report-a-problem/">
+    <img src="./settings/6.png">
+  </a>
+  </div>
+</div>
 
   <div class="cart-window" id="cart-window">
     <div class="cart-items-container" id="cart-items-container"></div>
     <div id="total-price" class="total-price"></div>
-    <div class="section">
-      <p>التوصيل 350 دج</p>
-    </div>
     <div class="form-popup">
       <form id="purchase-form" action="https://formspree.io/f/xeqyvlgd" method="POST">
         <input type="hidden" id="titleInput" name="title" readonly>
@@ -108,7 +145,7 @@
 
   <div class="container">
     <div id="products" class="products">
-      <h2>السوبر ماركت</h2>
+      <h2>الحلويات</h2>
     </div>
     <div class="card-container" id="carousel"></div>
   </div>
